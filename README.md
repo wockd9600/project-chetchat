@@ -198,13 +198,13 @@
 | --- | --- |
 | 원인 | 나가기 버튼 클릭이 아닌 뒤로가기, 브라우저 끄기, 소켓 연결 끊김의 경우에 대한 처리가 누락됨. |
 | 해결 | socket.io의 disconnect 이벤트로 소켓 연결이 끊겼을 때 블라인드 채팅방에서 나감을 감지하고 처리함.  |
-|코드|asdfsfasdfkasjdfklsjf |
+|코드| [https://github.com/wockd9600/project-chetchat/blob/main/server/src/socket/idle.js](https://github.com/wockd9600/project-chetchat/blob/main/server/src/socket/idle.js) |
 
 | 문제 상황 | 서버를 pm2 클러스터 모드로 실행하면 이벤트를 못 받을 때가 있음. |
 | --- | --- |
 | 원인 | pm2 클러스터 모드는 여러 프로세스(워커)를 사용하기 때문에 각 프로세스 간의 메모리와 소켓 연결이 독립적으로 동작함. 이로 인해 다른 프로세스에서 발생한 소켓 이벤트를 수신하지 못하는 문제가 발생함. |
 | 해결 | Redis를 기반으로 하는 socket.io-redis 어댑터를 사용하여 각 워커 간의 소켓 이벤트를 Redis Pub/Sub를 통해 공유하고, 모든 프로세스에서 동일하게 이벤트를 처리할 수 있도록 구현함. 이를 통해 클러스터 모드에서도 이벤트 전파가 가능해짐. |
-|코드|asdfsfasdfkasjdfklsjf |
+|코드| [https://github.com/wockd9600/project-chetchat/blob/main/server/src/socket/index.js](https://github.com/wockd9600/project-chetchat/blob/main/server/src/socket/index.js) |
 <br>
 
 🪣S3
@@ -212,7 +212,7 @@
 | --- | --- |
 | 원인 | S3에 이미지는 성공적으로 업로드되지만, 이후 다른 작업에서 에러가 발생해 롤백되면서 DB에 저장되지 않는 문제. |
 | 해결 | 이미지의 주소를 저장하는 임시 테이블을 생성해, 에러 발생 시에도 이미지를 추적하고 처리할 수 있도록 개선. |
-|코드|asdfsfasdfkasjdfklsjf |
+|코드| [https://github.com/wockd9600/project-chetchat/blob/main/server/index.js](https://github.com/wockd9600/project-chetchat/blob/main/server/index.js) |
 
 <br><br>
 
