@@ -7,11 +7,12 @@ import logger from "../modules/logger.js";
 
 export default function (idle) {
     idle.on("connection", (socket) => {
-        // ****************
-        // *              *
-        // * 발생했던 문제들  *
-        // *              *
-        // ****************
+        // * ------------------------------------------------ *
+        // *
+        // * 발생했던 문제들
+        // * 블라인드 채팅 중 상대가 나간 걸 감지 못함.
+        // *
+        // * ------------------------------------------------ *
         socket.on("disconnect", async () => {
             const user_id = socket.user_id;
             if (!user_id) return;

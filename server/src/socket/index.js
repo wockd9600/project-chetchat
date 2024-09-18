@@ -47,11 +47,12 @@ const init = (app) => {
 	// io.adapter(createAdapter(redisClient, redisClient));
 
 
-	// ****************
-	// *              *
-	// * 발생했던 문제들  *
-	// *              *
-	// ****************
+	// * ------------------------------------------------ *
+    // *
+    // * 발생했던 문제들
+    // * 서버를 pm2 클러스터 모드로 실행하면 이벤트를 못 받을 때가 있음.
+    // *
+    // * ------------------------------------------------ *
 	Promise.all([pubClient.connect(), subClient.connect()]).then(() => {
 		io.adapter(createAdapter(pubClient, subClient));
 	});

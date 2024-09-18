@@ -115,11 +115,12 @@ app.post('/upload', isLoggedIn, upload.single('file'), async (req, res) => {
         const result = await uploadFile(file);
         const message_type = mimeType.mime.startsWith('image/') ? 1 : 2;
 
-        // ****************
-        // *              *
-        // * 발생했던 문제들  *
-        // *              *
-        // ****************
+        // * ------------------------------------------------ *
+        // *
+        // * 발생했던 문제들
+        // * 이미지를 보낼 때 에러가 발생하면 S3에는 저장되지만 DB엔 저장되지 않음
+        // *
+        // * ------------------------------------------------ *
         const [temp] = await pool.query('INSERT INTO temporary_image SET ?', [{ image_url: result }]);
 
 
