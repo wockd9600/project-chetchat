@@ -1,0 +1,10 @@
+.duplicate { display: flex; margin-right: 2px;}
+li>label { padding: 0 !important;}
+.select-container { display: block; position: relative; height: fit-content; cursor: pointer; width: fit-content; }
+.select-container input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0 }
+.select-container:hover input ~ .checkmark { border-color: rgb(100, 100, 100) }
+.select-container input:checked ~ .checkmark { background-color: #3366FF; border: none }
+.select-container input:checked ~ .checkmark:after { display: block }
+.select-container .checkmark:after { left: 10px; top: 6px; width: 7px; height: 11px; border: solid white; border-width: 0 2px 2.5px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg) } 
+.checkmark { position: absolute; top: 50%; transform: translateY(-50%); left: 0; height: 26px; width: 26px; background-color: white; border: 0.5px solid #ccc; border-radius: 50%; box-sizing: border-box }
+.checkmark:after { content: ""; position: absolute; display: none }

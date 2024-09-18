@@ -1,0 +1,8 @@
+{
+    "gcmKey": "GCM API Key HERE",
+    "subject": "mailto:your@domain.com",
+    "vapid": {
+      "public": "BErJ2-FWUPXyBnKpKxk14XgS4s-eqdvrE1-fd-C-XTv-YB26lp4lWTFYPfhiU_yA-K1g4wkUHuizuVTptx8_ND8",
+      "private": "UjPhQdtygt1uqk15NQJVGDJYpFpIbiW9aKcMUe_BwCY"
+    }
+  }

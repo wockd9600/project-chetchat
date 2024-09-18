@@ -1,0 +1,438 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    /* -webkit-user-select: none;
+    user-select: none; */
+    -webkit-tap-highlight-color: transparent;
+}
+
+a[href^="javascript"] {
+    -webkit-touch-callout: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: ' ';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font: 13px/1.5 Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, WenQuanYi Micro Hei, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+input {
+    outline: 0;
+}
+
+/* IE의 경우 */
+input::-ms-clear,
+input::-ms-reveal {
+    display: none;
+}
+
+/* 크롬의 경우 */
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+    display: none;
+}
+
+textarea {
+    display: block;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none !important;
+    /*remove the resize handle on the bottom right*/
+}
+
+.hidden {
+    float: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.hiddenText {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.none {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+table {
+    margin-left: 1px;
+}
+
+table td,
+table th {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+nav {
+    min-height: 50px;
+}
+
+
+.app-main {
+    /* 50= navbar  50  */
+    padding-bottom: env(safe-area-inset-bottom);
+    height: calc(var(--vh) * 100 - 100px);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-main-color {
+    background-color: #3366ff !important
+}
+
+.bg-main-color-3 {
+    background-color: #84a9ff;
+}
+
+.main-color {
+    color: #6690FF;
+}
+
+.blur-box-color {
+    background-color: #F0F0F0;
+}
+
+.message-box-color {
+    background-color: #F5F5F5;
+}
+
+.message-color {
+    color: #B5B5B5;
+}
+
+.blur-color {
+    color: #b1b1b1;
+}
+
+.grey2 {
+    color: #8E8E8E;
+}
+
+.grey3 {
+    color: #4f4f4f;
+}
+
+.btn-base {
+    width: 35%;
+    min-width: 140px;
+    height: 40px;
+    border: 0 solid #fff;
+    border-radius: 25px;
+    background-color: none;
+    color: #ADC8FF;
+    box-sizing: border-box;
+}
+
+.btn-base.fill {
+    background-color: #ADC8FF;
+    color: #fff;
+}
+
+.chat-img {
+    display: flex;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.chat-img-loading {
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.line {
+    height: 1px;
+    /* margin: .5rem 0; */
+    background-color: #eaeaea;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.click-effect {
+    cursor: pointer;
+}
+
+.click-effect:active {
+    background-color: rgb(238, 238, 238) !important;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.medium-zoom-image.medium-zoom-image--opened {
+    z-index: 9999;
+}
+
+.nodrag {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.chetchat-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+}
+
+.medium-zoom-overlay {
+    z-index: 9998;
+}
+
+:root {
+    /* --sat: env(safe-area-inset-top);
+    --sar: env(safe-area-inset-right); */
+    --sab: env(safe-area-inset-bottom);
+    /* --sal: env(safe-area-inset-left); */
+}
+
+/* 
+.swal2-icon {
+    position: relative;
+    box-sizing: content-box;
+    justify-content: center;
+    width: 5em;
+    height: 5em;
+    margin: 2.5em auto 0.6em ;
+    border: 0.25em solid rgba(0, 0, 0, 0);
+    border-radius: 50% ;
+    border-color: #000;
+    font-family: inherit;
+    line-height: 5em;
+    cursor: default;
+    user-select: none;
+}
+
+div:where(.swal2-icon).swal2-error {
+    border-color: #f27474 !important;
+    color: #f27474;
+} */

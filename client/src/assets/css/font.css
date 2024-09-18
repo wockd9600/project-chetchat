@@ -1,0 +1,11 @@
+/* @font-face {
+    font-family: 'noto-sans-kr';
+    src: url('@/assets/font/NotoSansKR-Light.ttf') format('truetype');
+    unicode-range: U+AC00-U+D7A3;
+}
+
+@font-face {
+    font-family: 'open-sans-en';
+    src: url('@/assets/font/OpenSans-Light.ttf') format('truetype');
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+} */

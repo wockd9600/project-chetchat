@@ -1,0 +1,143 @@
+.mw-70 {
+    width: 70%;
+}
+
+.mw-80 {
+    max-width: 80%;
+}
+
+.mw-90 {
+    max-width: 90%;
+}
+
+.chat-item+.chat-item {
+    margin-top: 10px;
+}
+
+/* .chat-item .context {
+    font-family: noto-sans-kr, open-sans-en !important;
+    -webkit-font-smoothing: noto-sans-kr, open-sans-en;
+    -moz-osx-font-smoothing: noto-sans-kr, open-sans-en;
+} */
+
+
+
+.chat-box {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
+}
+
+.chat-box,
+.chat-box * {
+    touch-action: pan-y !important;
+}
+
+
+.chat-box .user-name {
+    line-height: 20px;
+    color: #767676;
+}
+
+.chat-box .context {
+    /* transition: border-radius .1s; */
+    padding: 8px 16px;
+    /* border-radius: 15px; */
+    border-radius: 20px 20px 20px 20px;
+    color: #595959;
+    white-space: pre-line;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+/* .chat-item .my-last-context {
+    border-radius: 20px 20px 5px 20px;
+} */
+
+/* .chat-item .other-last-context {
+    border-radius: 20px 20px 20px 5px;
+} */
+
+.chat-box .active-evnet {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #000;
+    opacity: 0.3;
+}
+
+.chat-box .my-last-context .active-evnet {
+    border-radius: 20px 20px 5px 20px;
+}
+
+.chat-box .other-last-context .active-evnet {
+    border-radius: 20px 20px 20px 5px;
+}
+
+.msg-more {
+    position: absolute;
+    display: none;
+    width: 150px;
+    padding: 3px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+    z-index: 9999;
+}
+
+.msg-more ul li {
+    padding: 5px 0;
+}
+
+.msg-more ul li+li {
+    /* margin-right: 1px; */
+    border-top: 1px solid #e2e2e2;
+}
+
+.msg-more ul li:last-child {
+    border-right-width: 0;
+}
+
+
+.reply-info-up {
+    height: 49px !important;
+}
+
+.reply-info {
+    height: 0px;
+    /* transition: height 0.3s; */
+}
+
+.reply-box-color {
+    background-color: #f9f9fab3;
+
+}
+
+
+.reply-wrapper {
+    position: absolute;
+    /* position: relative; */
+    /* transform: translateX(100%); */
+    right: 20px;
+    top: 0;
+    transition: transform 0.3s ease;
+    /* background-color: #adc8ff; */
+    border: 0 solid #fff !important;
+    box-sizing: border-box;
+}
+
+.reply-icon {
+    position: relative;
+    padding: 0;
+    padding-left: 100px;
+    /* background-color: #adc8ff; */
+    color: #000;
+    border: 0 solid #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+}

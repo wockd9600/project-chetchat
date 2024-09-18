@@ -1,0 +1,19 @@
+.toast-container .toast {
+    width: fit-content !important;
+    border: 0 !important;
+    border-radius: 25px;
+}
+.toast-container {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55px;
+}
+.toast-body {
+    padding: 3px 15px !important;
+    border: 0 !important;
+    background-color: rgb(83, 83, 83);
+    border-radius: 25px;
+    color: #FFFFFF;
+    opacity: .8;
+    /* opacity: 30%; */
+}

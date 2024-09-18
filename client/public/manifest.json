@@ -1,0 +1,47 @@
+{
+  "description": "ngrok is the fastest way to put anything on the internet with a single command.",
+  "display": "standalone",
+  "dir": "ltr",
+  "name": "ChetChat",
+  "short_name": "ChetChat",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/friend",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "img/icons/48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": []
+}
