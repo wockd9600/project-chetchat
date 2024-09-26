@@ -34,11 +34,17 @@
 ## 4. 주요 기능
 ### [계정]
 - <b>회원가입</b> : 아이디  6자 이상, 비밀번호 8자 이상 입력
+
+| 회원가입 | 
+|----------|
+|<img width="376" src="https://github.com/user-attachments/assets/d2e31c96-c9e2-4427-bba2-9b6528f4b67c" />|
+<br>
+
 - <b>로그인</b> : 아이디, 비밀번호로 로그인합니다. 5번 이상 틀릴 경우 5분 동안 로그인이 제한됩니다.
 
-| 계정 |
+| 로그인 | 
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/cc644615-4ced-4cfb-b6e7-ebda340218e8" />|
+|<img width="376" src="https://github.com/user-attachments/assets/77ae1a12-7935-4477-8714-b1c156b52b08" />|
       
 <br><br>
 
@@ -48,7 +54,7 @@
 
 | 메인 화면 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/61e9e12f-9e9b-4e6a-9896-ead0ca9e339e" />|
+|<img width="376" src="https://github.com/user-attachments/assets/74284270-2a3d-4766-bb2d-9d3114dcabfc" />|
    
 <br><br>
 
@@ -58,7 +64,7 @@
 
 | 유저 검색 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/070ea3b2-c11f-4b42-98ef-1575062e4891" />|
+|<img width="376" src="https://github.com/user-attachments/assets/90cb7e2e-0941-48db-abd8-bf192aa47e06" />|
    
 <br><br>
 
@@ -67,7 +73,7 @@
 
 | 차단 목록 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/f9350463-46c9-4b25-af7d-e1e3edb75afa" />|
+|<img width="376" src="https://github.com/user-attachments/assets/47f54c3f-7166-460b-9e7b-d0ba7f4d312b" />|
    
 <br><br>
 
@@ -79,7 +85,7 @@
 
 | 내 프로필 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/20361641-3e29-4358-b4fb-46564686287a" />|
+|<img width="376" src="https://github.com/user-attachments/assets/f093f5c2-aaee-4df5-ac83-b1424be2535b" />|
    
 <br><br>
 
@@ -91,7 +97,7 @@
 
 | 내 계정 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/86420eb6-90ad-4e48-91da-4b48210ede3a" />|
+|<img width="376" src="https://github.com/user-attachments/assets/48e1909f-a0c8-4ebf-bbd6-dda1e620e4d3" />|
    
 <br><br>
 
@@ -102,7 +108,7 @@
 
 | 프로필 편집 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/2841e422-1eaa-4238-83ee-f42fe7b645cb" />|
+|<img width="376" src="https://github.com/user-attachments/assets/e6b69cfc-d649-4c3d-bc3d-e6870a85b4a4" />|
    
 <br><br>
 
@@ -116,7 +122,7 @@
 
 | 유저 프로필 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/cf2bda03-04c3-4da6-86bd-10d5ccc754c8" />|
+|<img width="376" src="https://github.com/user-attachments/assets/ddb2d352-bceb-43e2-a65a-d0af612ad792" />|
 
 <br><br>
 
@@ -142,7 +148,7 @@
 
 | 1:1 채팅방 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/b4d32982-0fac-46c1-8dc8-470154d69b67" />|
+|<img width="376" src="https://github.com/user-attachments/assets/470dbb3e-fd11-45cd-b3db-90eed5e43be3" />|
    
 <br><br>
 
@@ -151,7 +157,7 @@
 
 | 편지함 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/33bc7b0e-9930-4d8e-a8cb-c740cd40834c" />|
+|<img width="376" src="https://github.com/user-attachments/assets/340d440b-c4c0-4942-9424-009cf65c0cde" />|
    
 <br><br>
 
@@ -167,7 +173,7 @@
 
 | 내 편지함 설정 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/49020f6c-2dcf-4552-8b1c-9335123c7e1f" />|
+|<img width="376" src="https://github.com/user-attachments/assets/fdc6d968-6f1f-4395-aa59-2282da318de7" />|
    
 <br><br>
 
@@ -176,7 +182,7 @@
 
 | 블라인드 채팅 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/2e65cd27-c5f0-4261-9644-df12d9e40f26" />|
+|<img width="376" src="https://github.com/user-attachments/assets/586b0a82-c349-425d-9f51-cb67bb87e2de" />|
    
 <br><br>
 
@@ -188,7 +194,7 @@
 
 | 블라인드 채팅방 |
 |----------|
-|<img width="376" src="https://github.com/user-attachments/assets/c0b4d16e-da58-4917-aa74-6a99fa183c32" />|
+|<img width="376" src="https://github.com/user-attachments/assets/3b9e8cb7-7ce5-4bc4-88fc-c31110a59608" />|
    
 <br><br>
 
